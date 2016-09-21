@@ -1,0 +1,17 @@
+
+.right_reserved {
+    position: absolute;
+    width: 74%;
+    height: 100px;
+    top: 1550px;
+    background-color: darkcyan;
+    background: linear-gradient(rgba(255,255,255,0.15), black 70px);
+}
+
+.right_reserved h1 {
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 2.5em;
+    color: white;
+    font-family: Great Vibes, sans-serif, serif;
+}

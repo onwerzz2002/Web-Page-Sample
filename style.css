@@ -1,0 +1,161 @@
+
+
+/* background style*/
+.background {
+    left:300px;
+    width:1200px;
+    height:2000px;
+    background: linear-gradient(transparent, transparent 950px,black 1050px),
+                black url('Pictures/yosemite-tunnel-view.jpg') no-repeat center;
+    background-size: cover;
+    position: absolute;
+    
+    
+}
+
+
+
+/* main div contained in background */
+.main {
+   width:1000px;
+   height:1800px; 
+   background-color: black;
+   position: absolute;
+   top: 50px;
+   left: 100px;
+   border-top: 2px solid black;
+   border-right: 2px solid black;
+    
+}
+
+
+
+/* bar  */
+.bar {
+    width: 100%;
+    height: 85px;
+    box-shadow: 0 35px 75px -5px #39393B inset;
+    font-family: 'Playball', Helvetica, Arial, sans-serif;
+    //background: linear-gradient(#262425, transparent 5px ,#171616 30px);
+               
+}
+
+.bar h1 {
+    position: absolute;
+    color: ghostwhite;
+    top: 0;
+    left: 20px;
+}
+
+ul {
+    position: absolute;
+    font-size: 1.4em;
+    top: 15px;
+    right: 25px;
+}
+
+ul li {
+   color: white; 
+   margin-left: 5px;
+   margin-right:5px;
+   display: inline;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+ul a:hover {
+    color: yellow;
+}
+
+
+
+/* information div */
+.info_background {
+    position: absolute;
+    width: 50%;
+    height: 400px;
+  
+    background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1) 100px,black 400px),
+                black url('Pictures/info_bg.jpg') no-repeat center;  
+}
+
+.info_title {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+}
+
+.info_title .name {
+    position: relative;
+    top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 3em;
+}
+
+.info {
+    position: absolute;
+    top: 80px;
+    width: 97%;
+    height: 300px;
+    background-color: transparent;
+    overflow-y: auto;
+}
+
+#content_paragraph {
+    margin-top: -70px;
+}
+
+
+.info_title h6 {
+    position: absolute;
+    left: 10px;
+    color:yellow;
+    font-family: 'Playball', Helvetica, Arial, sans-serif;
+}
+
+.info .star {
+    font-size:0.7em;
+}
+
+
+
+.info p {
+    position: absolute;
+    top: 80px;
+    left: 15px;
+    width: 95%;
+    color:white;
+    font-size:1em;
+    line-height: 1.5em;
+}
+
+
+
+/* cameraman's photo here */
+.photo {
+   position: absolute;
+   right: 0px;
+   width: 50%;
+   height: 400px;
+   background-image: url('Pictures/cameraman.jpg');
+   background-size:cover;
+}
+
+
+
+/* Upcoming show*/
+.upcoming_show {
+    position: absolute;
+    top: 1080px;
+    left: 25px;
+    font-size: 1.4em;
+    font-family: Roboto Slab,Montserrat, sans-serif;
+    width:70%;
+    height:auto;
+    color: white;
+}
